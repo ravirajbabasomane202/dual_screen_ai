@@ -1,0 +1,6 @@
+Bundled fonts
+- Inter (Regular, Medium, SemiBold, Bold): Copyright The Inter Project Authors, SIL Open Font License 1.1
+  (https://scripts.sil.org/OFL). See INTER_COPYRIGHT.txt.
+- DejaVu Sans Mono: Copyright Bitstream, Inc. / Tavmjong Bah; free licence that allows redistribution
+  (https://dejavu-fonts.github.io/License.html).
+Icons (display/assets/icons) are original line drawings in the style of common 24px stroke icon sets.

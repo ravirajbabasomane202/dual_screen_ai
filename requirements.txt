@@ -1,0 +1,21 @@
+# Runtime (Windows 10/11, Python 3.10+)
+PySide6>=6.6
+numpy>=1.26
+requests>=2.31
+psutil>=5.9
+soxr>=0.3                       # high-quality streaming resampler
+onnxruntime>=1.17               # Silero VAD (no PyTorch needed)
+faster-whisper>=1.1             # local speech-to-text (CTranslate2)
+huggingface_hub>=0.23           # one-time Whisper model download
+sounddevice>=0.4                # optional microphone
+pypdf>=4.0                      # resume + PDF knowledge base parsing
+python-docx>=1.0                # resume (.docx) parsing
+PyAudioWPatch>=0.2.12; sys_platform == "win32"   # WASAPI loopback
+keyboard>=0.13.5; sys_platform == "win32"        # global hotkeys
+
+# NVIDIA GPU (CUDA 12) for faster-whisper — optional
+# nvidia-cublas-cu12
+# nvidia-cudnn-cu12==9.*
+
+# Alternative STT engine — optional
+# pywhispercpp
